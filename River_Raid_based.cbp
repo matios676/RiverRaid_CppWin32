@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="River_Raid_based" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/River_Raid_based" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Bullet.h" />
+		<Unit filename="include/Canvas.h" />
+		<Unit filename="include/Engine.h" />
+		<Unit filename="include/Entity.h" />
+		<Unit filename="include/Events.h" />
+		<Unit filename="include/Input.h" />
+		<Unit filename="include/Jet.h" />
+		<Unit filename="include/Keyboard.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="include/Objects.h" />
+		<Unit filename="include/Screen.h" />
+		<Unit filename="include/ScreenApi.h" />
+		<Unit filename="include/ScreenTxt.h" />
+		<Unit filename="include/Ship.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mainAPI.cpp" />
+		<Unit filename="src/Bullet.cpp" />
+		<Unit filename="src/Canvas.cpp" />
+		<Unit filename="src/Engine.cpp" />
+		<Unit filename="src/Entity.cpp" />
+		<Unit filename="src/Events.cpp" />
+		<Unit filename="src/Input.cpp" />
+		<Unit filename="src/Jet.cpp" />
+		<Unit filename="src/Keyboard.cpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Objects.cpp" />
+		<Unit filename="src/Screen.cpp" />
+		<Unit filename="src/ScreenApi.cpp" />
+		<Unit filename="src/ScreenTxt.cpp" />
+		<Unit filename="src/Ship.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
